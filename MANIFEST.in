@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include panber *.css
+recursive-include panber *.csv
+recursive-include panber *.html
+recursive-include panber *.ico
+recursive-include panber *.js
+recursive-include panber *.json
+recursive-include panber *.md
+recursive-include panber *.png
+recursive-include panber *.py
+recursive-include panber *.svg
+recursive-include panber *.txt
+recursive-exclude panber *.pyc
